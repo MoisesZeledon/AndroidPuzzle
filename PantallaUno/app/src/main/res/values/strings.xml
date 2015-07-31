@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PantallaUno</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo2">Titulo de la segunda actividad</string>
+    <string name="acerca">Titulo de acerca</string>
+    <string name="ayuda">Titulo de ayuda</string>
+</resources>
