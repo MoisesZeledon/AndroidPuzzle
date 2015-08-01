@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Juegos Del Hambre</string>
+
+    <string name="play">Jugar</string>
+    <string name="exit">Salir</string>
+    <string name="help">Ayuda</string>
+    <string name="about">Acerca de</string>
+    <string name="logo">Logo</string>
+
+    <!-- Texto del Dialogo Ayuda -->
+    <string name="help_1">Esta aplicación funciona de la siguiente manera.</string>
+    <string name="help_2">En la opción de jugar,nos muestra una sopa de letras donde tenemos que buscar palabras de comidas y bebidas que se consumen en Nicaragua.Esta aplicación también tiene un tiempo determinado, las reglas son las siguientes:</string>
+    <string name="help_3">•	Si al terminar el tiempo establecido no has encontrado las palabras, abras perdido el juego.</string>
+    <string name="help_4">•	Si al terminar el tiempo pudiste encontrar todas las palabras, has ganado el juego.</string>
+
+    <!-- Texto del Dialogo Acerca De -->
+    <string name="about_1">UNIVERSIDAD NACIONAL DE INGENIERIA</string>
+    <string name="about_2">ELABORADO POR:</string>
+
+    <string name="integrant_1">1- MOISES ENRIQUE ZELEDON.</string>
+    <string name="integrant_2">2- LUIS MENOCAL LÓPEZ.</string>
+
+</resources>
