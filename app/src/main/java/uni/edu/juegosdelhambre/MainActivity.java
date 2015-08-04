@@ -1,16 +1,17 @@
 package uni.edu.juegosdelhambre;
 
 
+import android.app.Dialog;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import android.app.Dialog;
-
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import uni.edu.juegosdelhambre.config.BaseConfig;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,12 +20,25 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SharedPreferences sharedPreferences = getSharedPreferences(BaseConfig.MENU_PREF_KEY, MODE_PRIVATE);
+
+        boolean isFirstTime = sharedPreferences.getBoolean(BaseConfig.FIRST_TIME, true);
+        if (isFirstTime) {
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putBoolean(BaseConfig.FIRST_TIME, false);
+            editor.apply();
+
+            Intent intent = new Intent(this, SplashScreen.class);
+            startActivity(intent);
+        }
+
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
     }
 
     @OnClick(R.id.btnEnter) void enter() {
-        Intent intent = new Intent(this, PuzzleActivity.class);
+        Intent intent = new Intent(this, HandicapActivity.class);
         this.startActivity(intent);
     }
 

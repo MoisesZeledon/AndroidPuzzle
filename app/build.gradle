@@ -24,6 +24,8 @@ dependencies {
 
     // Application Compatibility Library
     compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:support-v13:22.2.1'
 
     // View Library
     compile 'com.jakewharton:butterknife:7.0.1'

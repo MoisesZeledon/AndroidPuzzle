@@ -6,8 +6,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="uni.edu.juegosdelhambre.PuzzleActivity">
+    tools:context="uni.edu.juegosdelhambre.SplashScreen">
 
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btnImReady"
 
+        android:layout_centerInParent="true"
+
+        android:layout_width="210dp"
+        android:layout_height="90dp"
+        android:background="#c7ecb210"
+        android:text="@string/ImReady"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    
 
 </RelativeLayout>

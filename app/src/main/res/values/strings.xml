@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Juegos Del Hambre</string>
 
+    <string name="ImReady">Estoy Listo!</string>
     <string name="play">Jugar</string>
     <string name="exit">Salir</string>
     <string name="help">Ayuda</string>
@@ -19,5 +20,24 @@
 
     <string name="integrant_1">1- MOISES ENRIQUE ZELEDON.</string>
     <string name="integrant_2">2- LUIS MENOCAL LÓPEZ.</string>
+
+    <!-- Actividad Handycap -->
+    <string name="title_activity_handycap">Seleccion de Dificultad</string>
+    <string name="easy">Facil</string>
+    <string name="medium">Medio</string>
+    <string name="hard">Dificil</string>
+
+    <!-- GamePlay -->
+    <string name="time">Tiempo</string>
+    <string name="score">Score</string>
+    <string name="pause">Pausa</string>
+    <string name="skip">Saltar</string>
+    <string name="resume">Continuar</string>
+    <string name="restart">Reiniciar</string>
+
+    <string name="results">Resultados</string>
+    <string name="results_replay">Jugar de Nuevo</string>
+    <string name="results_return_menu">Regresar al Menu</string>
+
 
 </resources>
